@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 	int times = 0;
 	char letter;
 
-	while (times <= 9)
+	while (times++ <= 9)
 	{
 		letter = 'a';
 			while (letter <= 'z')
@@ -19,5 +19,4 @@ void print_alphabet_x10(void)
 			letter++;
 			_putchar('\n');
 	}
-	++times;
 }
